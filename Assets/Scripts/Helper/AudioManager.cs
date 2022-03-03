@@ -10,6 +10,9 @@ public class AudioManager : MonoBehaviour
 
     private void PlayAudio(AudioClip audio, float volume, float pitch, float startTime)
     {
+        if (audio == null)
+            return;
+
         GameObject soundContainer = new GameObject(audio.name, typeof(AudioSource));
         AudioSource audioSource = soundContainer.GetComponent<AudioSource>();
         audioSource.clip = audio;
@@ -22,6 +25,9 @@ public class AudioManager : MonoBehaviour
 
     public static void PlaySound(AudioClip clip, Transform position, float volume = .4f, float pitch = .8f, float startTime = 0)
     {
+        if (clip == null)
+            return;
+
         if(Vector2.Distance(Camera.main.gameObject.transform.position, position.position) < HEAR_DISTANCE)
             GameManager.Instance.AudioManager.PlayAudio(clip, volume, pitch, startTime);
     }
