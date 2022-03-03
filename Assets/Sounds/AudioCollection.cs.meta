@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 51c07f38ca390af43aa02a5a3c5deb08
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Walk: {fileID: 8300000, guid: 2f61503b91fba7649b2a82795a8953b1, type: 3}
+  - Throw: {fileID: 8300000, guid: c0b4269b0a2f9d74b8d1d1684a1f25e5, type: 3}
+  - Attack: {fileID: 8300000, guid: 6673e3000fade064ca5d99fcca88c133, type: 3}
+  - Sword: {fileID: 8300000, guid: 97390bc73da67884f863382fa4d87443, type: 3}
+  - ChestOpen: {fileID: 8300000, guid: d1efcd0859bcbc0459e61c32e105eb8f, type: 3}
+  - Mimic: {fileID: 8300000, guid: b1a96e490ce31754584226dbe8f74bb7, type: 3}
+  - GateOpen: {fileID: 8300000, guid: e00fb44ebf441a14ba89455f4ab51ba9, type: 3}
+  - GateClose: {fileID: 8300000, guid: 244e5be11aa33d543a87cb1dfe7d87ac, type: 3}
+  - Spikes: {fileID: 8300000, guid: 1a7df681a92f12e43a15b95bf232ba7a, type: 3}
+  - FallOver: {fileID: 8300000, guid: 031461fb4e575a443b8a9bdc20756297, type: 3}
+  - DemonDamage: {fileID: 8300000, guid: a153ba178509f98418d5cfd420076f8a, type: 3}
+  - ZombieDamage: {fileID: 8300000, guid: 98bd21abbd8c81e4ab54d24972ce5890, type: 3}
+  - KnightDamage: {fileID: 8300000, guid: 61eeeb6a1ff35fd499567696816a5de6, type: 3}
+  - Switch: {fileID: 8300000, guid: 305cb325e71c10247bcd1d3ee74f0b77, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
